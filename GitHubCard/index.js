@@ -70,9 +70,6 @@ function cardCreator(obj) {
   cardInfo.append(cardFollowing);
   cardInfo.append(cardBio);
 
-  console.log(cardProfile);
-  console.log(cardProfileLink);
-
   // add classes to elements
   card.classList.add("card");
   cardInfo.classList.add("card-info");
@@ -93,8 +90,6 @@ function cardCreator(obj) {
 
   // nest anchor tag
   cardProfile.append(cardProfileLink);
-
-  console.log(card);
 
   // return DOM element
   return card;
